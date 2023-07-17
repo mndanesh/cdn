@@ -1,0 +1,180 @@
+/* product text */
+.product-text h1,
+.product-text h2,
+.product-text h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #30b9d3;
+  margin: 25px 0;
+}
+.product-text ul li,
+.product-text ol li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  list-style: inside;
+  color: #7d7d7d;
+}
+.product-text ul,
+.product-text ol {
+	padding-right: 15px;
+	margin: 30px 0;
+}
+
+.product-text p {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+}
+/*Alipour*/
+
+.hsg-featured-snippet span {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+}
+.hsg-featured-snippet._wrapper--content {
+    margin: 10px;
+    text-align: justify;
+}
+
+
+
+#results {
+  min-height: 200px;
+}
+/*------top-products------*/ 
+#top-products .swiper-wrapper{
+  display: flex;
+}
+#top-products .swiper-slide{
+  height: auto;
+}
+#top-products .product{
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 100%;
+}
+/*------amazing------*/ 
+#amazing .side > header .icon{
+  background: var(--primary);
+  color: var(--primary-text);
+}
+
+#amazing .product{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#amazing .side .nav-tabs{
+  border: 0;
+}
+
+#amazing .side .nav-item{
+  max-width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--border-color);
+  border-top: 0;
+}
+#amazing .side .nav-item:last-child{
+  border-bottom: 0;
+}
+#amazing .side .nav-link{
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.3em;;
+  text-align: center;
+  margin: 0;
+  border: 0;
+}
+#amazing .side .nav-link.active{
+  border-left: 0;
+  border-right: 0;
+  border-top: 1px solid var(--border-color);
+  color: var(--primary);
+}
+#amazing .main > header{
+  border-bottom: 0 !important;
+}
+#amazing .side > header .h4{
+  font-size: 1.3rem;
+}
+#amazing .main-title strong{
+  font-size: 1.3em;
+}
+#amazing .main-title {
+  color: var(--cyan);
+}
+#amazing .btn.more{
+  padding: .5rem 2rem;
+  margin-top: .5rem;
+}
+#amazing .title{
+  font-weight: 500;
+  font-size: 1.2em;
+}
+@media (max-width: 992px){
+  #amazing .main-title{
+    text-align: left;
+  }
+}
+@media (max-width: 767px){
+  #amazing .product{
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+  }
+  #amazing .main-title{
+    font-size: 1.2rem;
+  }
+  #amazing .title{
+    font-size: 1rem;
+  }
+  #amazing .tab-content>.tab-pane{
+    display: block;
+    opacity: 1;
+  }
+}
+
+        #ez-toc-container {
+            border-style: none !important;
+            border-radius: 10px !important;
+            padding: 20px;
+            -webkit-background-size: cover !important;
+            background-size: cover !important;
+        }
+
+            #ez-toc-container p {
+                text-align: right !important;
+                padding: 15px 0 !important;
+            }
+
+            #ez-toc-container .ez-toc-title-container p {
+                font-size: 16px !important;
+            }
+
+            #ez-toc-container ul li {
+                background: url(https://abin.ir/content/modern/img/icon/check-1.png) no-repeat right center;
+                padding: 2px;
+                padding-right: 30px;
+                -webkit-background-size: 24px;
+                background-size: 24px;
+                line-height: 2em;
+            }
+
+        #ez-toc-container ul.ez-toc-list a:hover {
+            text-decoration: none !important;
+        }
+
+        #ez-toc-container a:hover {
+            text-decoration: none !important;
+        }
+
+        #ez-toc-container nav li {
+            font-weight: 600;
+        }
